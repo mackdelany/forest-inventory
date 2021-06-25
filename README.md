@@ -18,7 +18,16 @@ docker-compose up
 
 After a few minutes the service should be on `localhost` (http://0.0.0.0)
 
-## What I'd do differently with more time
+## Running tests
+
+Simply run the `./run-tests` shell script in the root directory, you may need to make the file executable:
+
+```
+chmod +x ./run-tests.sh
+./run-tests.sh
+```
+
+## What I'd do with more time
 
 First of all this was so much fun. There are approximately 2 million things I'd add/fix, but he's a quick rundown of the most important:
 
