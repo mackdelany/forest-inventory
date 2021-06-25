@@ -2,7 +2,7 @@
 
 Howdy and thanks for stopping by!
 
-This repository provides a webservice showcasing my favorite forests (and a few other places with trees and magical memories).
+This is a webservice showcasing my favorite forests (and a few other places with trees and magical memories).
 
 You can see the live web service at https://forests.mackdelany.com/
 
