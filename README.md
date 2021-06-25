@@ -8,7 +8,7 @@ You can see the live web service at https://forests.mackdelany.com/
 
 ## Getting started
 
-To run the service pull the repositary to a local machine and build/start the service with docker-compose:
+To run the service pull the repos to a local machine and build/start the service with docker-compose:
 
 ```
 git clone https://github.com/mackdelany/forest-inventory.git
@@ -16,7 +16,7 @@ cd forest-inventory
 docker-compose up
 ```
 
-After a few minutes the service should be avaliable on `localhost` (http://0.0.0.0)
+After a few minutes the service should be on `localhost` (http://0.0.0.0)
 
 ## What I'd do differently with more time
 
@@ -46,7 +46,7 @@ There a bunch of design issues left, it kills me to leave them, but dimishing re
 - I'd ensure all of the white titles of the images are easily readable (some aren't)
 - I'd find/design/procure fun icons for the health metrics
 - I'd get someone with fresh eyes to play with the service to find holes... people don't do this enough!
-- I'd design/style custom components (where needed) instead of using the bootstrap library the entire time
+- I'd design/style custom components (where needed) instead of using the bootstrap library the entire time (would also get my code reviewed == best learning in my opinion!)
 - I'd use Pachama brand colours / logos / favicons / fonts / iconography -- brand is important!
 
 ### I'd figure out why the MapBox 3D terrain features isn't working from a container
@@ -59,8 +59,12 @@ I wish I had time to write all of these myself! I also wanted to go dig out old 
 
 ### I'd add the search/filter
 
-I thought about doing this, but schedules are tight and this is bonus scope..... and it's always good to have engineers that stick to scope right? ;)
+I thought about doing this, but schedules are tight and this is bonus scope..... and it's always good to have engineers that stick to scope right?
 
 ### I'd use Machine Learning to estimate the carbon stock of each forest
 
-Easier said than done this one!
+Easier said than done this one! ;)
+
+---
+
+Was there anything I missed? An obvious mistake I made? I'd love to hear if so!
