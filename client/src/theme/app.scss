@@ -1,0 +1,45 @@
+@import "~bootstrap/scss/bootstrap";
+
+.forest-card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.forest-card {
+  width: 25rem;
+  margin: 20px;
+  border: 2rem;
+  border-color: red;
+}
+
+.forest-card:hover {
+  background-color: yellow;
+}
+
+.forest-detail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.forest-information {
+  width: 33%;
+}
+
+.map-container {
+  height: 100vh;
+  flex-grow: 2;
+}
+
+.home-header {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.forest-metrics {
+  margin: 20px;
+}
