@@ -1,4 +1,14 @@
-Things to add/do
+# Mack Delany and his forests
+
+Howdy and thanks for stopping by!
+
+This repository provides a webservice showcasing my favorite forests (and a few other places with trees).
+
+## Getting started
+
+To run the service
+
+## What I'd do differently with more time
 
 - postgres
 - cloud stuff
