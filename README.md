@@ -6,7 +6,11 @@ This repository provides a webservice showcasing my favorite forests (and a few 
 
 ## Getting started
 
-To run the service
+To run the service pull the repositary to a local machine and run:
+
+```
+docker-compose up
+```
 
 ## What I'd do differently with more time
 
