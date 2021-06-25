@@ -53,13 +53,3 @@ I thought about doing this, but schedules are tight and this is bonus scope.....
 ### I'd use Machine Learning to estimate the carbon stock of each forest
 
 Easier said than done this one!
-
-- cloud stuff
-- permissions/auth on db
-- add a sort to forest db thing
-- revisit health metrics data type
-- get brand colors
-- look at postgres
-- permissions on db
-- favicon / logos / brand colors
-- cloud
