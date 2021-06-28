@@ -68,7 +68,7 @@ I wish I had time to write all of these myself! I also wanted to go dig out old 
 
 ### I'd add the search/filter
 
-I thought about doing this, but schedules are tight and this is bonus scope..... and it's always good to have engineers that stick to scope right?
+I thought about doing this, but schedules are tight and this is bonus scope..... and it's always good to have engineers that stick to scope right? ;)
 
 ### I'd use Machine Learning to estimate the carbon stock of each forest
 
@@ -77,3 +77,31 @@ Easier said than done this one! ;)
 ---
 
 Was there anything I missed? An obvious mistake I made? I'd love to hear if so!
+
+---
+
+And some more points I realized I should have included while thinking about it over the weekend....
+
+### I would have written more tests
+
+I had 3 unit tests for the server, none for the client. Definitely not optimal test coverage!
+
+### I should have added commentary around DB design
+
+In the pursuit of velocity I used SQLite with one table and simple data types, I wouldn't have done this in production. For example, I made forest type a string - which would be error prone (what happens if someone accidently uses Restoration instead of Reforestation?).. this would have been better as an ENUM which was one of the trade offs of using SQLite ie SQLite doesn't have ENUMs but Postgres does.
+
+### I would have optimised the application for mobile views
+
+A few @media css statements would have gone a long way on the detail page!
+
+### I would have been more disciplined around commenting where I'd made a hack and why
+
+For example, line 29 in Map.tsx looks like this: `zoom: area < 100000 ? 12 : 9,` which clearly is not much help to anyone... I should have noted that this was a hack that worked well for the forests I chose... and that it wasn't a magic formula that would work for future forests.
+
+### I would have completed READMEs in the /client and /server folders
+
+I <3 simple, short, explainable documentation and fell a little short on my own standards there.
+
+### I would have calculated realistic carbon stock + change values
+
+Something simple like 700 t * area would have been more realistic than me tapping random numbers like I did!
