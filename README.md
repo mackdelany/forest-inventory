@@ -1,10 +1,20 @@
 # Mack Delany and his forests
 
-Howdy and thanks for stopping by!
+This is a webservice showcasing my favorite forests (and a few other places with trees and magical memories). 
 
-This is a webservice showcasing my favorite forests (and a few other places with trees and magical memories).
+The service is a super-lightweight showcase of MapBox being used with React/TypeScript, with geographic information served from a SQLite DB via FastAPI/python. 
 
-You can see the live web service at https://forests.mackdelany.com/
+The repo here encapsulates all of this with docker. If deploying something similar in production you'd probably want to seperate these services into something like:
+
+```
+
+Mapbox / React                               FastAPI                                 PostgreSQL DB
+                          <------>                                <------> 
+Served from CloudFront                 Hosted on ECS / EC2                     Persisted by AWS RDS
+
+```
+
+
 
 ## Getting started
 
@@ -29,7 +39,7 @@ chmod +x ./run-tests.sh
 
 ## What I'd do with more time
 
-First of all this was so much fun. There are approximately 2 million things I'd add/fix, but he's a quick rundown of the most important:
+There are approximately 2 million things I'd add/fix, but he's a quick rundown of the most important:
 
 ### I wouldn't make the client ask the server for the entire DB
 
@@ -73,14 +83,6 @@ I thought about doing this, but schedules are tight and this is bonus scope.....
 ### I'd use Machine Learning to estimate the carbon stock of each forest
 
 Easier said than done this one! ;)
-
----
-
-Was there anything I missed? An obvious mistake I made? I'd love to hear if so!
-
----
-
-And some more points I realized I should have included while thinking about it over the weekend....
 
 ### I would have written more tests
 
