@@ -15,7 +15,6 @@ Served from CloudFront                 Hosted on ECS / EC2                     P
 ```
 
 
-
 ## Getting started
 
 To run the service pull the repos to a local machine and build/start the service with docker-compose:
